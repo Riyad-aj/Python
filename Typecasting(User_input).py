@@ -7,13 +7,13 @@ print (P==Q)
 print (P>Q)
 print (P<Q)
 ______________________________________________
-Enter the first number:50
-Enter the secend number:62
-3100
-50
-0
-False
+Enter the first number:73
+Enter the secend number:12
+876
+1
+6
 False
 True
+False
 
 [Program finished]
