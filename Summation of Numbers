@@ -1,0 +1,12 @@
+#5 13 17 23
+n = input("Enter a text of number : ")
+list = n.split()
+sum = 0
+for num in list:
+    sum = sum + int ( num)
+print(sum)
+___________________________________
+Enter a text of number : 10 13 31
+54
+
+[Program finished]
