@@ -1,0 +1,26 @@
+#Find the numbers of letters, words & digits from sentence
+numOfWords = 0
+numOfLetters = 0
+numOfDigits = 0
+text = input ("Enter a text of numbers: ")
+for x in text:
+ 
+    x = x.lower ()
+    if x >= 'a' and x <= 'z':
+        numOfLetters = numOfLetters + 1
+ 
+    elif x >= '0' and x <= '9':
+        numOfDigits = numOfDigits + 1
+ 
+    elif x==' ':
+        numOfWords = numOfWords + 1
+print (numOfLetters)
+print (numOfDigits)
+print (numOfWords+1)
+______________________________________
+Enter a text of numbers: There is 20 numbers
+14
+2
+4
+
+[Program finished]
