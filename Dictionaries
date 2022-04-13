@@ -1,0 +1,13 @@
+Name ={
+         "1" : "Aaraf",
+         "2" : "Farabi",
+         "3" : "Iftekhar",
+         "4" : "Tahmid",
+}
+print(Name["1"])
+print(Name.get("9", "Key is invalid"))
+_______________________
+Aaraf
+Key is invalid
+
+[Program finished]
