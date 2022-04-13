@@ -1,0 +1,15 @@
+Scientists = (
+           ("Newton", "Calculus", "Mechanics"),
+           "Tesla",
+           "Einstein",
+           "Avogadro",
+)
+print(Scientists[1])
+print(Scientists)
+print(Scientists[1:2])
+________________________
+Tesla
+(('Newton', 'Calculus', 'Mechanics'), 'Tesla', 'Einstein', 'Avogadro')
+('Tesla',)
+
+[Program finished]
