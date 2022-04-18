@@ -1,0 +1,38 @@
+Books = [ ]
+Books.append("Bangla")
+Books.append("English")
+Books.append("Math")
+Books.append("Science")
+Books.pop( )
+print("Now the top book is : ", Books[-1])
+Books.pop( )
+print("Now the top book is : ", Books[-1])
+Books.pop( )
+print("Now the top book is : ", Books[-1])
+Books.pop( )
+if not Books:
+    print("No books left ")
+
+from collections import deque
+variable = deque(["p", "q", "r"])
+print(variable)
+variable.popleft( )
+print(variable)
+variable.popleft( )
+print(variable)
+variable.popleft( )
+print(variable)
+if not variable:
+    print("No variable left")
+_________________________________________
+Now the top book is :  Math
+Now the top book is :  English
+Now the top book is :  Bangla
+No books left
+deque(['p', 'q', 'r'])
+deque(['q', 'r'])
+deque(['r'])
+deque([])
+No variable left
+
+[Program finished]
