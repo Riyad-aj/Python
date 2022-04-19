@@ -1,6 +1,7 @@
 def f(x):
         return x**2 + 1
 print(f(4))
+print(f(5))
 
 def large (a,b):
     if a>b:
@@ -8,6 +9,7 @@ def large (a,b):
     else:
         return b
 print (large (100,30))
+print(large(8,10))
 
 def odd(a,b):
      if ( a% 2 != 0) and (b% 2 != 0):
@@ -19,6 +21,7 @@ def odd(a,b):
      else:
          return 0
 print(odd(2,4))
+print(odd(6,7))
 
 def absolute_value(num):
     if num >= 0:
@@ -26,13 +29,16 @@ def absolute_value(num):
     else:
         return -num
 
-print(absolute_value(0))
+print(absolute_value(1))
 print(absolute_value(-8))
 ___________________________________________
 17
+26
 100
+10
 0
-0
+7
+1
 8
 
 [Program finished]
