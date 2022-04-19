@@ -1,1 +1,38 @@
-Ghh
+def f(x):
+        return x**2 + 1
+print(f(4))
+
+def large (a,b):
+    if a>b:
+        return a
+    else:
+        return b
+print (large (100,30))
+
+def odd(a,b):
+     if ( a% 2 != 0) and (b% 2 != 0):
+         return a, b
+     elif (a% 2 != 0):
+         return a
+     elif (b% 2 != 0):
+          return b
+     else:
+         return 0
+print(odd(2,4))
+
+def absolute_value(num):
+    if num >= 0:
+        return num
+    else:
+        return -num
+
+print(absolute_value(0))
+print(absolute_value(-8))
+___________________________________________
+17
+100
+0
+0
+8
+
+[Program finished]
