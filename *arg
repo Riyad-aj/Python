@@ -1,0 +1,36 @@
+# x argument
+def Adress(*information):
+    print(information)
+    
+Adress("Dhanmondi", "Dhaka")
+Adress("Zindabazar", "Sylhet")
+
+def add(*numbers):
+         sum= 0
+         for num in numbers:
+             sum= sum + num
+         print(sum)
+         
+         
+add(11, 23)
+add(12, 24, 56)
+add(13, 45, 78)
+
+# xx argument
+def Identity(**information):
+    print(information)
+    print(information["name"])
+    print(information["Id"])
+
+Identity(name="Riyad", Id=201)
+_______________________________________
+('Dhanmondi', 'Dhaka')
+('Zindabazar', 'Sylhet')
+34
+92
+136
+{'name': 'Riyad', 'Id': 201}
+Riyad
+201
+
+[Program finished]
