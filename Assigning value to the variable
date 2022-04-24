@@ -1,0 +1,45 @@
+#Add b=13 to a and assign it as a new value to a
+a = 22
+b = 13
+a += b
+print(a) 
+
+#Subtract 3 from variable p and assign it as a new value to p
+p = 8
+p -= 3
+print(p)
+
+#Multiply variable m by 27 and assign it as a new value to m
+m = 3
+m *= 27
+print(m) 
+
+#Divide variable a by 9 and assign a new value to a
+a = 45
+a /= 9
+print(a)  
+
+#Multiply a two times and assigns the result to a
+a = 5
+a **= 2
+print(a) 
+
+#Modulus on two values and assigns it as a new value to k
+k = 33
+k %= 5
+print(k) 
+
+#Floor-divide a by 6 and assigns the result to a
+a = 29
+a //= 6
+print(a) 
+_________________________________
+35
+5
+81
+5.0
+25
+3
+4
+
+[Program finished]
