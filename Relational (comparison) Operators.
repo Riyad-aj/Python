@@ -1,0 +1,31 @@
+x = 16
+y = 23
+z = 13
+
+print(x > y) 
+print(x < y) 
+print(x >= y) 
+print(16 >= x)
+print(x <= y)
+print(30 <= x)
+
+# Equal to 
+print(x == y) 
+print(z == 13) 
+
+# != Not Equal to 
+print(x != y)  
+print(16 != x) 
+_______________________________
+False
+True
+False
+True
+True
+False
+False
+True
+True
+False
+
+[Program finished]
