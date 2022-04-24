@@ -1,0 +1,25 @@
+x = 37 ; y = 40 ; z = 8
+
+print("Addition: ", x+y+z)
+print("Subtraction: ", y- z)
+print("Product:", x*y)
+print("Quotient: ", y/z)
+
+#Floor division to get result as integer( decimal point are removed).
+print(x // z)
+
+#Modulus operator divides one value by a second and gives the remainder as a result.
+print(y% x)
+
+a= 4
+print("Exponent: ", a**3)
+_____________________________________
+Addition:  85
+Subtraction:  32
+Product: 1480
+Quotient:  5.0
+4
+3
+Exponent:  64
+
+[Program finished]
