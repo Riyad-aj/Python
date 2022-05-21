@@ -1,0 +1,6 @@
+Y = int(input("Enter a year: "))
+
+if (Y %400==0) or (Y %100!= 0) and (Y %4== 0):
+    print("Given year is a leap year.")
+else:
+    print("Given year is not a leap year")
