@@ -1,0 +1,17 @@
+#Generating a Single Random Number
+import random
+x = random.random()
+print(x)
+
+#Generating Number in a Range
+import random
+n = random.randint(0,100)
+print(n)
+
+#Generating a List of numbers Using For Loop
+import random
+randomlist = []
+for i in range(1,6):
+	n = random.randint(1,30)
+	randomlist.append(n)
+print(randomlist)
